@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "English157BT";
+  src: url("fonts/TT0840M.TTF");
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("fonts/ARIAL.TTF");
+}
+
+@font-face {
+  font-family: "Tahoma";
+  src: url("fonts/TAHOMA.TTF");
+}
+
+body {
+	font-family: "Arial";
+	font-weight: 400;
+	position: relative; 
+	height: 97vh;
+}
+
+.screensaver {
+	background: #323232;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo {
+	display: block;
+	width: 60%;
+	margin: auto;
+}
+
+/*.screensaver_contant {
+	margin: auto;
+	width: 450px;
+	text-align: center;
+	padding-left: 15px;
+}*/
+
+.header h1 {
+	font-family: "English157BT";
+	font-weight: 400; 
+	color: white;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.ru {
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.pic {
+	color: white;
+	text-align: center;
+	font-size: 37px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.links a {
+	color: white;
+	padding: 8px 28px;
+	text-decoration: none;
+	background: #4c4c4c;
+}
+
+.links {
+	text-align: center;
+}
+
+@media(max-width: 600px) {
+	.header h1 {
+		font-size: 37px;
+	}
+
+	.ru {
+		font-size: 10px;
+	}
+
+	.pic {
+		font-size: 20.5px;
+	}
+
+	.logo {
+		width: 300px;
+	}
+
+	.links a {
+		padding: 8px 10px;
+	}
+}
