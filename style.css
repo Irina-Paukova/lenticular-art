@@ -29,22 +29,15 @@ body {
 
 .logo {
 	display: block;
-	width: 80%;
+	width: 40vw;
 	margin: auto;
 }
 
-/*.screensaver_contant {
-	margin: auto;
-	width: 450px;
-	text-align: center;
-	padding-left: 15px;
-}*/
-
-.header h1 {
+h1 {
 	font-family: "English157BT";
 	font-weight: 400; 
 	color: white;
-	font-size: 70px;
+	font-size: 5vw;
 	text-align: center;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -54,24 +47,28 @@ body {
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 18px;
+	font-size: 1.13vw;
 	margin-top: 0;
 	margin-bottom: 0;
+	letter-spacing: 0.1vw;
 }
 
 .pic {
 	color: white;
 	text-align: center;
-	font-size: 37px;
+	font-size: 2.3vw;
 	margin-top: 0;
 	margin-bottom: 15px;
+	letter-spacing: 0.2vw;
 }
 
 .links a {
 	color: white;
-	padding: 8px 28px;
+	padding: 8px 2.5vw;
 	text-decoration: none;
 	background: #4c4c4c;
+	font-size: 0.97vw;
+	margin: 0.05vw;
 }
 
 .links {
@@ -80,22 +77,23 @@ body {
 
 @media(max-width: 600px) {
 	.header h1 {
-		font-size: 37px;
+		font-size: 13vw;
 	}
 
 	.ru {
-		font-size: 10px;
+		font-size: 3.11vw;
 	}
 
 	.pic {
-		font-size: 20.5px;
+		font-size: 6.4vw;
 	}
 
 	.logo {
-		width: 90%;
+		width: 105vw;
 	}
 
 	.links a {
-		padding: 8px 10px;
+		font-size: 4vw;
+		padding: 8px 4.5vw;
 	}
 }
