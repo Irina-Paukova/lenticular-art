@@ -29,7 +29,7 @@ body {
 
 .logo {
 	display: block;
-	width: 30vw;
+	width: 24vw;
 	margin: auto;
 }
 
@@ -89,7 +89,7 @@ h1 {
 	}
 
 	.logo {
-		width: 70vw;
+		width: 65vw;
 	}
 
 	.links a {
