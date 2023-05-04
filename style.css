@@ -75,6 +75,75 @@ h1 {
 	text-align: center;
 }
 
+.home_body {
+	margin: 0;
+}
+
+.header_home {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.cont {
+	background: #4e4e4e;
+	height: 2vw;
+}
+
+.baner {
+	width: 100%;
+}
+
+.header_home_content {
+	position: absolute;
+	top: 69%;
+	right: 27vw;
+}
+
+.header_home_content h1 {
+	font-size: 7vw;
+	margin: 0;
+	letter-spacing: 0.1vw;
+}
+
+.header_home_content p {
+	font-size: 1.03vw;
+	margin: -1vw 0 0 -2vw;
+	color: white;
+	letter-spacing: 0.15vw;
+}
+
+.header_home_content a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin-left: 2vw;
+}
+
+.main_home_flex img {
+	width: 100px;
+}
+
+.header_home_link {
+	display: inline-block;
+	font-size: 1.06vw;
+	color: white;
+	text-decoration: none;
+	margin: 0;
+	padding: 0.4vw 2vw 0.6vw 2vw;
+}
+
+.header_home_link:hover {
+	background: white;
+	color: #4e4e4e;
+}
+
+.links_2 {
+	background: #4e4e4e;
+	text-align: center;
+	margin-top: -0.3vw;
+}
+
 @media(max-width: 600px) {
 	.header h1 {
 		font-size: 13vw;
