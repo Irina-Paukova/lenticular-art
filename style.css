@@ -80,6 +80,7 @@ h1 {
 }
 
 .header_home {
+	background: #4e4e4e;
 	position: relative;
 	width: 100%;
 	text-align: center;
@@ -87,7 +88,7 @@ h1 {
 
 .cont {
 	background: #4e4e4e;
-	height: 2vw;
+	height: 2.4vw;
 }
 
 .baner {
@@ -130,7 +131,7 @@ h1 {
 	color: white;
 	text-decoration: none;
 	margin: 0;
-	padding: 0.4vw 2vw 0.6vw 2vw;
+	padding: 0.7vw 2vw 0.6vw 2vw;
 }
 
 .header_home_link:hover {
@@ -142,6 +143,19 @@ h1 {
 	background: #4e4e4e;
 	text-align: center;
 	margin-top: -0.3vw;
+}
+
+.main_home {
+	background: #353535;
+	padding: 5vw;
+}
+
+.lorem {
+	text-align: justify;
+}
+
+.main_home h2 {
+	margin-top: 0;
 }
 
 @media(max-width: 600px) {
