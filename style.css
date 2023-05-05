@@ -18,6 +18,7 @@ body {
 	font-weight: 400;
 	position: relative; 
 	height: 97vh;
+	margin: 0;
 }
 
 .screensaver {
@@ -77,6 +78,7 @@ h1 {
 
 .home_body {
 	margin: 0;
+	background: #4e4e4e;
 }
 
 .header_home {
@@ -121,22 +123,17 @@ h1 {
 	margin-left: 2vw;
 }
 
-.main_home_flex img {
-	width: 100px;
-}
-
 .header_home_link {
 	display: inline-block;
 	font-size: 1.06vw;
-	color: white;
+	color: #cecece;
 	text-decoration: none;
 	margin: 0;
 	padding: 0.7vw 2vw 0.6vw 2vw;
 }
 
 .header_home_link:hover {
-	background: white;
-	color: #4e4e4e;
+	background: #353535;
 }
 
 .links_2 {
@@ -147,15 +144,70 @@ h1 {
 
 .main_home {
 	background: #353535;
-	padding: 5vw;
+	padding: 5vw 15vw;
 }
 
 .lorem {
 	text-align: justify;
+	margin: 3vw 0;
 }
 
 .main_home h2 {
 	margin-top: 0;
+	text-align: center;
+	color: #cecece;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 0.15vw;
+	font-size: 1.5vw;
+}
+
+.main_home p {
+	font-size: 1.2vw;
+	color: #cecece;
+}
+
+.romashky {
+	margin-top: 1.2vw;
+	width: 100%;
+}
+
+.main_home_flex {
+	position: relative;
+}
+
+.sertificat_jpg {
+	width: 25vw;
+}
+
+.molbert {
+	width: 69vw;
+	position: absolute;
+	top: -17vw;
+	left: -18vw;
+}
+
+.sertificat {
+	margin-left: 50%;
+	margin-top: 20vw;
+	text-align: right;
+}
+
+.sertificat p {
+	text-align: justify;
+}
+
+.footer_home {
+	background: #4e4e4e;
+	display: flex;
+	justify-content: space-around;
+	padding: 2vw 15vw;
+}
+
+.footer_home p {
+	margin: 0;
+	font-size: 1.2vw;
+	color: white;
 }
 
 @media(max-width: 600px) {
