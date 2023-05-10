@@ -249,6 +249,15 @@ h1 {
 		font-size: 2.5vw;
 	}
 
+	.main_home p {
+		font-size: 2.5vw;
+	}
+
+	.footer_home p {
+		font-size: 2vw;
+		text-align: center;
+	}
+
 	.ru {
 		font-size: 3.11vw;
 	}
